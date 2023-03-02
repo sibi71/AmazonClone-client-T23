@@ -1,0 +1,12 @@
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 350px   !important;
+}
+.carousel-indicators {
+display: none !important;
+}
+.slide__image{
+    
+    mask-image: linear-gradient(to bottom ,rgb(0, 0, 0,1),rgba(0, 0, 0, 0));
+}

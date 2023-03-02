@@ -1,0 +1,9 @@
+.private{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.private img{
+    width: 30%;
+}

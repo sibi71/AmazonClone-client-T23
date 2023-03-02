@@ -1,0 +1,34 @@
+.home{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-items:center;
+    gap: 15px;
+    padding:30px;
+    position: relative;
+    top:-348px;
+    
+}
+.home__detalls{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px ;
+    
+}
+@media only screen and (max-width:768px) {
+   
+   .home__items{
+    top:-210px;
+   }
+ }
+ @media only screen and (max-width:550px) {
+    .home__items{
+    position: relative;
+     top:-78px;
+    }
+  }

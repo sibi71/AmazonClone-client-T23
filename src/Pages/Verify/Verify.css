@@ -1,0 +1,25 @@
+.verify__loading{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.verify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+}
+.verified{
+    margin-top: 20px;
+}
+.verify button{
+    background-color: #e9bd4e;
+    border: none;
+    outline: none;
+    box-shadow: 1px 5px 8px -9px black;
+    cursor: pointer;
+    padding: 2px 20px;
+    border-radius: 5px;
+}

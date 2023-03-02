@@ -1,0 +1,49 @@
+#payment-form{
+    width: 40vw;
+    min-width: 500px;
+    box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 50, 50),
+    0px 2px 5px 0px rgba(50, 50, 93, 0.1),0px 1px 1.5px 0px rgba(0, 0, 0, 0.07) ;
+    border-radius: 7px;
+    padding: 40px;
+}
+#payment-element{
+    margin-bottom: 24px;
+
+}
+#payment-message{
+    color: rgb(105,115,134);
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 12px;
+    text-align: center;
+}
+.payment-button{
+    background-color: #5469d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;   
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    box-shadow: 0px 4px 5.5px 0px rgba(0,0,0,0,0.07);
+    width: 100%;
+    transition: all 0.2s ease;
+}
+.payment-button:hover{
+    filter: contrast(115%);
+}
+.payment-button:disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner img{
+    width: 30px;
+    height:30px;
+}
